@@ -2,7 +2,7 @@ var form = document.getElementById("addForm");
 var itemList = document.getElementById("items");
 var filter = document.getElementById("filter");
 
-// Form submit event
+/*// Form submit event
 form.addEventListener("submit", addItem);
 // Delete event
 itemList.addEventListener("click", removeItem);
@@ -37,7 +37,7 @@ function addItem(e) {
 
   // Append li to list
   itemList.appendChild(li);
-}
+}*/
 
 // Remove item
 function removeItem(e) {
